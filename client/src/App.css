@@ -1,0 +1,199 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.cardss
+{
+  display:flex;
+  gap:2rem;
+}
+.home_maindiv
+{
+  display:grid;
+  place-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,86,59,1) 35%, rgba(0,212,255,1) 100%);
+
+
+}
+.home_1stdiv
+{
+  color:brown;
+  margin-bottom: 50px;
+  font-size:xx-large;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-body {
+  /* background-color: #1bc8f8; */
+  background:linear-gradient(#FFD26F 30%,#3677FF 100%);
+  min-height: 100vh;
+  margin-top: 0%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-login {
+  /* background-color: #fbc6c7; */
+  background: rgb(2,0,36);
+  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,150,161,1) 35%, rgba(0,212,255,1) 100%);
+  min-height: 200px;
+  min-width: 300px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.login_mainbody
+{
+  
+  min-height: 800px;
+  min-width: 500px;
+  font-size: calc(10px + 2vmin);
+  color:rgb(205, 109, 41);
+  background: rgb(2,0,36);
+  
+  background-size:contain;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,202,255,0.7400210084033614) 30%, rgba(214,59,31,0.10416666666666663) 73%);
+}
+.login_secondbody
+{
+  align-items: center;
+}
+.Home3_main
+{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  min-height: 100vh;
+  margin-bottom: 50px;
+  font-size: calc(100px + 20vmin);
+  display:grid;
+
+}
+.servcebike_main
+{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(8,190,221,0.7400210084033614) 0%, rgba(153,64,156,1) 75%, rgba(151,66,157,1) 87%, rgba(31,214,110,0.10416666666666663) 100%);
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  min-height: 100vh;
+  font-size: calc(100px + 20vmin);
+  display:flex;
+  flex-direction:column;
+}
+.Registraton_main
+{
+  background:linear-gradient(#FFD26F 30%,#3677FF 100%);
+  min-height: 100vh;
+  margin-top: 0%;
+}
+.royalenfieldSP_main
+{
+  min-height: 50vh;
+}
+.SPbike_body
+{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,86,59,1) 35%, rgba(0,212,255,1) 100%);
+}
+.Home2_main
+{
+  background: rgb(2,0,36);
+  background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(119,150,161,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.home_2{
+
+background: linear-gradient(#FFCF71,#2376DD);
+background-size: cover;
+height: 730px;
+}
+.SPaero_img
+{
+  background: linear-gradient(#FFCF71,#2376DD);
+}
+
+.sp_item > Item{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,190,221,0.8184523809523809) 0%, rgba(27,139,198,1) 24%, rgba(153,64,156,1) 75%, rgba(151,66,157,1) 87%, rgba(31,214,110,0.10416666666666663) 100%);
+}
+.Pricetag_main{
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(8,190,221,0.7400210084033614) 0%, rgba(153,64,156,1) 75%, rgba(151,66,157,1) 87%, rgba(31,214,110,0.10416666666666663) 100%);
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+}
+.pricetag_maindiv
+{
+   background: linear-gradient(#FFCF71,#2376DD);
+background-size: cover;
+height: 730px;
+}
+
+.Pricetag_main
+{
+  display:flex;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,86,59,1) 35%, rgba(0,212,255,1) 100%);
+  margin-top: 0%;
+}
+.Shifting2_mainshift
+{
+  display:flex;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(120,86,59,1) 35%, rgba(0,212,255,1) 100%);
+  margin-top: 0%;
+}
+.main_finalpayment
+{
+  background: linear-gradient(#FFCF71,#2376DD);
+}
